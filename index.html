@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+        <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">
+        <title>Test bootstrap</title>
+    </head>
+    <body>
+        
+        <nav class="navbar navbar-expand-lg navbar-dark bg-gradient-primary">
+
+            <div class="container">
+
+                <a class="navbar-brand h1 mb-0" href=" ">Curso</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSite">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Perfil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Depoimentos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Contatos</a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="navDrop" href="">
+                                Social
+                            </a>
+                            <div class="dropdown-menu" id="navDrop">
+                                    <a class="dropdown-item" href="">Facebook</a>
+                                    <a class="dropdown-item" href="">Twiter</a>
+                                    <a class="dropdown-item" href="">Instagram</a>
+                            </div>
+                        </li>   
+                    </ul>
+
+                    <form class="form-inline">
+                        <input class="form-control ml-4 mr-2" type="search" placeholder="Buscar...">
+                        <button class="btn btn-dark" type="Submit">Ok</button>
+                    </form>
+
+
+                </div>
+            </div>
+        </nav>
+
+        <div id="carouselSite" class="carousel slide" data-ride ="carousel">
+
+            <ol class="carousel-indicators">
+               <li data-target="#carouselSite" data-slide-to="0" class="active"></li>
+               <li data-target="#carouselSite" data-slide-to="1"></li> 
+               <li data-target="#carouselSite" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="carousel-caption d-none d-md-block text-dark">
+                        <h1>Lorem ipsum dolor </h1>
+                        <p class="lead">Integer ac dignissim elit, ac gravida nulla.</p>
+                    </div>
+                    <img src="img/cafe.jpg" class="img-fluid d-block">
+                </div>
+
+                <div class="carousel-item">
+                    <div class="carousel-caption d-none d-md-block text-dark">
+                        <h1>Lorem ipsum dolor </h1>
+                        <p class="lead">Integer ac dignissim elit, ac gravida nulla.</p>
+                    </div>
+                    <img src="img/mesa.jpg" class="img-fluid d-block">
+                </div>
+
+                <div class="carousel-item">
+                    <div class="carousel-caption d-none d-md-block text-info">
+                        <h1>Lorem ipsum dolor</h1>
+                        <p class="lead">Integer ac dignissim elit, ac gravida nulla.</p>
+                    </div>
+                    <img src="img/face.jpg" class="img-fluid d-block">
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#carouselSite" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" ></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+
+            <a class="carousel-control-next" href="#carouselSite" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="sr-only">Avançar</span>
+            </a> 
+        </div>
+
+        <div class="container">
+
+            <div class="row mb-5">
+                <div class="col-12 text-center my-5">
+                    <h1 class="display-3">Lorem ipsum</h1>
+                    <p>Donec erat ante, posuere ut quam vel, dignissim finibus lacus.</p>
+                </div>
+
+            <div class="row mb-5">
+                <div class="col-3">
+
+                    <nav id="navbarVertical" class="navbar navbar-light bg-light">
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link" href="#item1">Lorem ipsum</a>
+                            <nav class="nav nav-pills flex-column">
+                                <a class="nav-link ml-3" href="#item1-1">Mullam fragellus</a>
+                                <a class="nav-link ml-3" href="#item1-2">Donec vel</a>
+                            </nav>
+                            <a class="nav-link my-2" href="#item2">Aenean ruturn</a>
+                            <a class="nav-link my-2" href="#item3">Ut aget</a>
+                            <nav class="nav nav-pills flex-column"> 
+                                <a class="nav-link ml-3" href="#item3-1">Maecenas feugiat</a>
+                                <a class="nav-link ml-3" href="#item3-2">Nullam vitae</a>
+                            </nav>
+
+
+                        </nav>
+
+                    </nav>
+                </div>
+                 
+                <div class="col-9">
+                    <div data-spy="scroll" data-target="#navbarVertical" data-offset="0" class="scrollspySite">
+
+                        <h4 id="item1">Lorem ipsum</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt eos facilis quas, 
+                            veritatis reiciendis odio assumenda quia minima eius consequatur exercitationem laboriosam 
+                            aut fugit tenetur recusandae repellendus nihil dignissimos quam?
+                        </p>
+
+                        <h5 id="item1-1">Mullam fragellus</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Donec erat ante, posuere ut quam vel, dignissim finibus lacus. Suspendisse vel lorem et mi interdum finibus. 
+                            Suspendisse nec neque non nulla consectetur malesuada nec consequat risus. Suspendisse ac rutrum
+                        </p>
+
+                        <h5 id="item1-2">Donec vel</h5>
+                        <p>
+                            Mauris id elementum tellus. Phasellus ex neque, feugiat vitae interdum a, commodo eget leo. 
+                            Ut iaculis euismod fermentum. 
+                            Aliquam hendrerit vestibulum felis vitae ullamcorper
+                        </p>
+
+                        <h4 id="item2">Aenean ruturn</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt eos facilis quas, 
+                            veritatis reiciendis odio assumenda quia minima eius consequatur exercitationem laboriosam 
+                            aut fugit tenetur recusandae repellendus nihil dignissimos quam?
+                        </p>
+
+                        <h4 id="item3">Ut aget</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt eos facilis quas, 
+                            veritatis reiciendis odio assumenda quia minima eius consequatur exercitationem laboriosam 
+                            aut fugit tenetur recusandae repellendus nihil dignissimos quam?
+                        </p>
+
+                        <h5 id="item3-1">Maecenas feugiat</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Donec erat ante, posuere ut quam vel, dignissim finibus lacus. Suspendisse vel lorem et mi interdum finibus. 
+                            Suspendisse nec neque non nulla consectetur malesuada nec consequat risus. Suspendisse ac rutrum
+                        </p>
+
+                        <h5 id="item3-2">Nullam vitae</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Donec erat ante, posuere ut quam vel, dignissim finibus lacus. Suspendisse vel lorem et mi interdum finibus. 
+                            Suspendisse nec neque non nulla consectetur malesuada nec consequat risus.
+                            Mauris id elementum tellus. Phasellus ex neque, feugiat vitae interdum a, commodo eget leo. 
+                            Ut iaculis euismod fermentum Donec erat ante, posuere ut quam vel, dignissim finibus lacus. Suspendisse vel lorem et mi interdum finibus.  
+                            Aliquam hendrerit vestibulum felis vitae ullamcorper
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+
+            </div>
+
+            <div class="row mb-5">   
+
+                <div class="col-sm-4">
+
+                    <div class="card">
+                        <img class="card-img-top" src="img/PC.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Duis dignissim</h4>
+                            <h6 class="card-subtitle mb-2 text-muted">Donec non elementum odio.</h6>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Orci varius natoque</li>
+                            <li class="list-group-item">Proin cursus blandit</li>
+                            <li class="list-group-item">Cras sed orci</li>
+                        </ul>  
+                        <div class="card-body"> 
+                            <a class="card-link" href="">Acessar</a>
+                            <a class="card-link" href=""> Saiba mais</a>
+                        </div>
+                        
+                        <div class="card-footer text-muted">
+                            Maecenas ac
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-sm-4">
+
+                    <div class="card">
+                        <img class="card-img-top" src="img/PC3.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Duis dignissim</h4>
+                            <h6 class="card-subtitle mb-2 text-muted">Donec non elementum odio.</h6>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Orci varius natoque</li>
+                            <li class="list-group-item">Proin cursus blandit</li>
+                            <li class="list-group-item">Cras sed orci</li>
+                        </ul>  
+                        <div class="card-body"> 
+                            <a class="card-link" href="">Acessar</a>
+                            <a class="card-link" href=""> Saiba mais</a>
+                        </div>
+
+                        <div class="card-footer text-muted">
+                            Maecenas ac
+                        </div>
+    
+                    </div>
+
+                </div>
+
+                <div class="col-sm-4">
+
+                    <div class="card">
+                        <img class="card-img-top" src="img/PC2.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Duis dignissim</h4>
+                            <h6 class="card-subtitle mb-2 text-muted">Donec non elementum odio.</h6>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Orci varius natoque</li>
+                            <li class="list-group-item">Proin cursus blandit</li>
+                            <li class="list-group-item">Cras sed orci</li>
+                        </ul>  
+                        <div class="card-body"> 
+                            <a class="card-link" href="" data-toggle="modal" data-target="#siteModal">Acessar</a>
+                            <a class="card-link" href=""> Saiba mais</a>
+                        </div>
+                        
+                        <div class="card-footer text-muted">
+                            Maecenas ac
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="siteModal" tabindex="1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Fusce ac cursus nisi</h5>
+                        <button type="button" class="close" data-dismiss="modal">
+                            <span>&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-6">
+                                <h5>Donec tar</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed accumsan ante, quis eleifend diam. 
+                                    Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer tortor neque, ultrices vitae felis a, 
+                                    consequat posuere tellus. Vivamus vitae elementum erat, vel blandit elit. Vestibulum auctor venenatis sollicitudin. 
+                                    Duis rutrum, eros ac vehicula consectetur, dolor elit varius urna, iaculis semper justo turpis at odio. 
+                                    Sed vel blandit lacus, id placerat ex. Curabitur fermentum nibh et nisi dapibus, a pretium quam ultrices.
+                                </p>
+                            </div>
+
+                            <div class="col-6">
+
+                                <h5>Donec tav</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed accumsan ante, quis eleifend diam. 
+                                    Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer tortor neque, ultrices vitae felis a, 
+                                    consequat posuere tellus. Vivamus vitae elementum erat, vel blandit elit. Vestibulum auctor venenatis sollicitudin. 
+                                    Duis rutrum, eros ac vehicula consectetur, dolor elit varius urna, iaculis semper justo turpis at odio. 
+                                    Sed vel blandit lacus, id placerat ex. Curabitur fermentum nibh et nisi dapibus, a pretium quam ultrices.
+                                </p>
+                            </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <script src="node_modules/jquery/dist/jquery.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    </body>
+</html>
